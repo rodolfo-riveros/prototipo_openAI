@@ -20,7 +20,7 @@ const port = 8080;
 app.use((0, cors_1.default)());
 app.use(express_1.default.json()); // Agrega el middleware para analizar el cuerpo de la solicitud como JSON
 const openai = new openai_1.default({
-    apiKey: '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',
+    apiKey: 'TU_API-KEY',
 });
 // Ruta para recibir las preguntas del frontend y obtener la respuesta de OpenAI
 app.post("/preguntas", (req, res) => __awaiter(void 0, void 0, void 0, function* () {

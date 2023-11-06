@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json()); // Agrega el middleware para analizar el cuerpo de la solicitud como JSON
 
 const openai = new OpenAI({
-    apiKey: 'TU_API_KEY',
+    apiKey: 'TU_API-KEY',
 });
 
 // Ruta para recibir las preguntas del frontend y obtener la respuesta de OpenAI
